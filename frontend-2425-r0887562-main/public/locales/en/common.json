@@ -1,0 +1,259 @@
+{
+  "name": "Car 4 Rental",
+  "general": {
+    "welcome": "Welcome to the Car 4 Rental application!",
+    "add": "Add",
+    "submit": "Submit",
+    "back": "Go Back",
+    "rent": "Rent",
+    "book": "Book Now",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "yes": "Yes",
+    "no": "No",
+    "search": "Search",
+    "clear": "Clear",
+    "contact": "Contact",
+    "loading": "Loading...",
+    "makeRental": "Make a Rental",
+    "reset": "Reset",
+    "fill": "Please fill in all fields"
+  },
+  "head": {
+    "title": {
+      "home": "Home",
+      "cars": {
+        "": "Cars",
+        "overview": "Car Overview",
+        "add": "Add Car",
+        "delete": "Delete Car"
+      },
+      "rents": {
+        "": "Rents",
+        "create": "Make a Rent",
+        "overview": "Rent Overview",
+        "cancel": "Cancel Rent"
+      },
+      "rentals": {
+        "": "Rentals",
+        "create": "Create Rental",
+        "overview": "Rental Overview",
+        "cancel": "Cancel Rental"
+      },
+      "notifications": {
+        "": "Notifications",
+        "overview": "Notification Overview"
+      }
+    }
+  },
+  "cars": {
+    "noCars": "No cars available",
+    "start": "Start by adding your first car to the fleet.",
+    "new": "Add new car",
+    "details": "Car Details",
+    "specs": "Specifications",
+    "features": "Features",
+    "actions": "Actions",
+    "children": "Child",
+    "rental": "Make a Rental",
+    "success": "Car created successfully!",
+    "add": {
+      "form": {
+        "brand": "Brand",
+        "model": "Model",
+        "type": "Type",
+        "plate": "License Plate",
+        "mileage": "Mileage",
+        "fuel": "Fuel Quantity",
+        "seats": {
+          "": "Seats",
+          "child": "Child Seats"
+        },
+        "folding": "Folding rear seats",
+        "towbar": "Towbar",
+        "list": "List for rental",
+        "error": {
+          "brand": {
+            "required": "Brand is required"
+          },
+          "model": {
+            "required": "Model is required"
+          },
+          "type": "Type is required",
+          "plate": {
+            "required": "License Plate is required",
+            "format": "License plate in wrong format (X-)XXX-XXX"
+          },
+          "seats": {
+            "": "Number of seats can't be negative",
+            "child": "Number of child seats can't be negative"
+          }
+        }
+      }
+    }
+  },
+  "rentals": {
+    "empty": "There are no rentals available.",
+    "search": {
+      "car": "Car",
+      "start": "Start Date",
+      "end": "End Date",
+      "city": "City",
+      "email": "Email"
+    },
+    "add": {
+      "pickup": "Pick up point",
+      "street": "Street",
+      "postal": "Postal Code",
+      "contact": "Contact",
+      "phone": "Phone number"
+    },
+    "form": {
+      "error": {
+        "endVstart": "End date can't be before start date",
+        "future": "Start date must be in the future",
+        "end": "End date can't be before today"
+      }
+    },
+    "success": "Rental created successfully!",
+    "deleted": "Rental deleted successfully",
+    "dates": "Please select a start and end date they should be in the future",
+    "error":"Something went wrong. Please try again."
+  },
+
+  "rent": {
+    "succes": "Rent created successfully! Redirecting...",
+    "error":"Something went wrong. Please try again.",
+    "location": "Location",
+    "status": {
+      "": "Status",
+      "active": "Active",
+      "cancelled": "Cancelled",
+      "finished": "Finished",
+      "confirmed": "Confirmed"
+    },
+    "add": {
+      "period": "Period",
+      "info": "Information Renter"
+    },
+    "form": {
+      "phone": "Phone number",
+      "ssn": "Social Security Number",
+      "birthdate": "Birthdate",
+      "license": "Driver's License",
+      "email": "Email",
+      "search": {
+        "start": "Start Date",
+        "end": "End Date",
+        "error": {
+          "start": "Start date can't be before today",
+          "end": "End date can't be before start date"
+        }
+      }
+    },
+    "overview": {
+      "owner": "Email Owner",
+      "renter": "Email Renter",
+      "norents": "No rents yet."
+    }, 
+    "cancel": {
+      "": "Do you want to cancel the rent for {{brand}} {{model}} with plate {{plate}} from {{startDate}} until {{endDate}}?"
+    }
+  },
+
+  "notifications": {
+    "empty": "You have no notifications.",
+    "type": "Type",
+    "message": "Message"
+  },
+
+  "header": {
+    "navbar": {
+      "home": "Home",
+      "cars": "Cars",
+      "rents": "Rents",
+      "rentals": "Rentals",
+      "notifications": "Notifications",
+      "login": "Login",
+      "logout": "Logout"
+    },
+    "languages": {
+      "en": "English",
+      "nl": "Dutch",
+      "es": "Spanish"
+    }
+  },
+  "index": {
+    "welcome": "Welcome to our Software Engineering project!!!",
+    "rent": "Rent your car today!"
+  },
+  "success": {
+    "car": "Car created successfully! Redirecting..."
+  },
+  "confirm": {
+    "cancel": {
+      "rent": "Are you sure you want to cancel this rent",
+            "rental": "Do you want to cancel the rental for {{brand}} {{model}} ({{licensePlate}}) from {{startDate}} until {{endDate}}?"
+    },
+    "delete": {
+      "car": "Do you want to delete {{brand}} model {{model}} with license plate {{plate}}",
+      "rental": "Are you sure you want to delete this rental"
+    }
+  },
+  "error": {
+    "cars": "No car was found, please try again.",
+    "rentals": "No rentals yet available",
+    "rents": "No rents yet available",
+    "something": "Something went wrong. Please try again.",
+    "try": "Please try again later.",
+    "rentalDelete": "Rental not deleted, something went wrong."
+  }, 
+
+  "login": {
+    "": "Login",
+    "email": "Email",
+    "password": "Password",
+    "error": {
+      "email": "Email is required",
+      "password": "Password is required"
+    },
+    "noAccount": "No account yet?",
+    "signup": "Sign up here",
+    "messages": {
+      "success": "Login successful. Redirecting ...",
+      "error": "Login unsuccessful",
+      "systemError": "An error has occurred. Please try again later."
+    }
+  },
+
+  "signup": {
+    "": "Create an account",
+    "username": "Username",
+    "email": "Email",
+    "password": "Password",
+    "role": {
+      "": "Role",
+      "owner": "Owner",
+      "renter": "Renter"
+    },
+    "submit": "Create account",
+    "error": {
+      "username": "Username is required.",
+      "email": "Email is required",
+      "password": "Password is required",
+      "confirm": "Passwords do not match"
+    },
+    "haveAccount": "Already have an account?",
+    "signin": "Log in here",
+    "messages": {
+      "success": "Account created successfully. Redirecting ...",
+      "error": "Something went wrong. Please try again."
+    }
+  },
+
+  "unauthorized": {
+    "": "401 - Unauthorized",
+    "message": "Sorry, you do not have access to this page.",
+    "back": "Home"
+  }
+}

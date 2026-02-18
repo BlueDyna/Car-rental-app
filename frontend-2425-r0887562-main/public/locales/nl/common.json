@@ -1,0 +1,251 @@
+{
+  "name": "Car 4 Rental",
+  "general": {
+    "welcome": "Welkom bij de Car 4 Rental applicatie!",
+    "add": "Toevoegen",
+    "submit": "Versturen",
+    "back": "Terug",
+    "rent": "Huren",
+    "book": "Nu Boeken",
+    "cancel": "Annuleren",
+    "delete": "Verwijderen",
+    "yes": "Ja",
+    "no": "Nee",
+    "search": "Zoeken",
+    "clear": "Wissen",
+    "contact": "Contact",
+    "loading": "Laden...",
+    "makeRental": "Maak een Verhuur",
+    "reset": "Resetten",
+    "fill": "Vul alstublieft alle velden in"
+  },
+  "head": {
+    "title": {
+      "home": "Home",
+      "cars": {
+        "": "Auto's",
+        "overview": "Auto Overzicht",
+        "add": "Auto Toevoegen",
+        "delete": "Auto Verwijderen"
+      },
+      "rents": {
+        "": "Huren",
+        "create": "Huur Maken",
+        "overview": "Huur Overzicht",
+        "cancel": "Huur Annuleren"
+      },
+      "rentals": {
+        "": "Verhuur",
+        "create": "Verhuur Aanmaken",
+        "overview": "Verhuur Overzicht",
+        "cancel": "Verhuur Annuleren"
+      },
+      "notifications": {
+        "": "Meldingen",
+        "overview": "Melding Overzicht"
+      }
+    }
+  },
+  "cars": {
+    "noCars": "Geen auto's beschikbaar",
+    "start": "Begin met het toevoegen van uw eerste auto aan de vloot.",
+    "new": "Nieuwe auto toevoegen",
+    "details": "Auto Details",
+    "specs": "Specificaties",
+    "features": "Kenmerken",
+    "actions": "Acties",
+    "children": "Kind",
+    "rental": "Maak een Verhuur",
+    "success": "Auto succesvol aangemaakt!",
+    "add": {
+      "form": {
+        "brand": "Merk",
+        "model": "Model",
+        "type": "Type",
+        "plate": "Kenteken",
+        "mileage": "Kilometerstand",
+        "fuel": "Brandstofhoeveelheid",
+        "seats": {
+          "": "Zitplaatsen",
+          "child": "Kinderzitjes"
+        },
+        "folding": "Neerklapbare achterbank",
+        "towbar": "Trekhaak",
+        "list": "Beschikbaar voor verhuur",
+        "error": {
+          "brand": {
+            "required": "Merk is verplicht"
+          },
+          "model": {
+            "required": "Model is verplicht"
+          },
+          "type": "Type is verplicht",
+          "plate": {
+            "required": "Kenteken is verplicht",
+            "format": "Kenteken in verkeerd formaat (X-)XXX-XXX"
+          },
+          "seats": {
+            "": "Aantal zitplaatsen kan niet negatief zijn",
+            "child": "Aantal kinderzitjes kan niet negatief zijn"
+          }
+        }
+      }
+    }
+  },
+  "rentals": {
+    "empty": "Er zijn geen verhuringen beschikbaar.",
+    "search": {
+      "car": "Auto",
+      "start": "Startdatum",
+      "end": "Einddatum",
+      "city": "Stad",
+      "email": "E-mail"
+    },
+    "add": {
+      "pickup": "Ophaallocatie",
+      "street": "Straat",
+      "postal": "Postcode",
+      "contact": "Contact",
+      "phone": "Telefoonnummer"
+    },
+    "form": {
+      "error": {
+        "endVstart": "Einddatum kan niet voor startdatum liggen",
+        "future": "Startdatum moet in de toekomst liggen",
+        "end": "Einddatum kan niet voor vandaag liggen"
+      }
+    },
+    "success": "Verhuur succesvol aangemaakt!",
+    "deleted": "Verhuur succesvol verwijderd",
+    "dates": "Selecteer een start- en einddatum, deze moeten in de toekomst liggen"
+  },
+  "rent": {
+    "succes": "Huur succesvol aangemaakt! Doorsturen...",
+    "location": "Locatie",
+    "status": {
+      "": "Status",
+      "active": "Actief",
+      "cancelled": "Geannuleerd",
+      "finished": "Afgerond",
+      "confirmed": "Bevestigd"
+    },
+    "add": {
+      "period": "Periode",
+      "info": "Informatie Huurder"
+    },
+    "form": {
+      "phone": "Telefoonnummer",
+      "ssn": "BSN-nummer",
+      "birthdate": "Geboortedatum",
+      "license": "Rijbewijs",
+      "email": "E-mail",
+      "search": {
+        "start": "Startdatum",
+        "end": "Einddatum",
+        "error": {
+          "start": "Startdatum kan niet voor vandaag liggen",
+          "end": "Einddatum kan niet voor startdatum liggen"
+        }
+      }
+    },
+    "overview": {
+      "owner": "E-mail Eigenaar",
+      "renter": "E-mail Huurder",
+      "norents": "Nog geen huren."
+    },
+    "cancel": {
+      "": "Wilt u de huur voor {{brand}} {{model}} met kenteken {{plate}} van {{startDate}} tot {{endDate}} annuleren?"
+    }
+  },
+  "notifications": {
+    "empty": "U heeft geen meldingen.",
+    "type": "Type",
+    "message": "Bericht"
+  },
+  "header": {
+    "navbar": {
+      "home": "Home",
+      "cars": "Auto's",
+      "rents": "Huren",
+      "rentals": "Verhuur",
+      "notifications": "Meldingen",
+      "login": "Inloggen",
+      "logout": "Uitloggen"
+    },
+    "languages": {
+      "en": "Engels",
+      "nl": "Nederlands",
+      "es": "Spaans"
+    }
+  },
+  "index": {
+    "welcome": "Welkom bij ons Software Engineering project!!!",
+    "rent": "Huur vandaag nog uw auto!"
+  },
+  "success": {
+    "car": "Auto succesvol aangemaakt! Doorsturen..."
+  },
+  "confirm": {
+    "cancel": {
+      "rent": "Weet u zeker dat u deze huur wilt annuleren",
+      "rental": "Wilt u de verhuur voor {{brand}} {{model}} ({{licensePlate}}) van {{startDate}} tot {{endDate}} annuleren?"
+    },
+    "delete": {
+      "car": "Wilt u {{brand}} model {{model}} met kenteken {{plate}} verwijderen",
+      "rental": "Weet u zeker dat u deze verhuur wilt verwijderen"
+    }
+  },
+  "error": {
+    "cars": "Geen auto gevonden, probeer het opnieuw.",
+    "rentals": "Nog geen verhuringen beschikbaar",
+    "rents": "Nog geen huren beschikbaar",
+    "something": "Er is iets misgegaan. Probeer het opnieuw.",
+    "try": "Probeer het later nog eens.",
+    "rentalDelete": "Verhuur niet verwijderd, er is iets misgegaan."
+  },
+  "login": {
+    "": "Inloggen",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "error": {
+      "email": "E-mail is verplicht",
+      "password": "Wachtwoord is verplicht"
+    },
+    "noAccount": "Nog geen account?",
+    "signup": "Registreer hier",
+    "messages": {
+      "success": "Succesvol ingelogd. Doorsturen...",
+      "error": "Inloggen mislukt",
+      "systemError": "Er is een fout opgetreden. Probeer het later nog eens."
+    }
+  },
+  "signup": {
+    "": "Account aanmaken",
+    "username": "Gebruikersnaam",
+    "email": "E-mail",
+    "password": "Wachtwoord",
+    "role": {
+      "": "Rol",
+      "owner": "Eigenaar",
+      "renter": "Huurder"
+    },
+    "submit": "Account aanmaken",
+    "error": {
+      "username": "Gebruikersnaam is verplicht.",
+      "email": "E-mail is verplicht",
+      "password": "Wachtwoord is verplicht",
+      "confirm": "Wachtwoorden komen niet overeen"
+    },
+    "haveAccount": "Heeft u al een account?",
+    "signin": "Log hier in",
+    "messages": {
+      "success": "Account succesvol aangemaakt. Doorsturen...",
+      "error": "Er is iets misgegaan. Probeer het opnieuw."
+    }
+  },
+  "unauthorized": {
+    "": "401 - Niet geautoriseerd",
+    "message": "Sorry, u heeft geen toegang tot deze pagina.",
+    "back": "Home"
+  }
+}

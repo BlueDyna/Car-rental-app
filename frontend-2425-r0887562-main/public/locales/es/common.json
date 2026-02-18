@@ -1,0 +1,251 @@
+{
+  "name": "Car 4 Rental",
+  "general": {
+    "welcome": "¡Bienvenido a la aplicación Car 4 Rental!",
+    "add": "Agregar",
+    "submit": "Enviar",
+    "back": "Volver",
+    "rent": "Alquilar",
+    "book": "Reservar Ahora",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "yes": "Sí",
+    "no": "No",
+    "search": "Buscar",
+    "clear": "Limpiar",
+    "contact": "Contacto",
+    "loading": "Cargando...",
+    "makeRental": "Hacer un Alquiler",
+    "reset": "Restablecer",
+    "fill": "Por favor complete todos los campos"
+  },
+  "head": {
+    "title": {
+      "home": "Inicio",
+      "cars": {
+        "": "Coches",
+        "overview": "Vista General de Coches",
+        "add": "Agregar Coche",
+        "delete": "Eliminar Coche"
+      },
+      "rents": {
+        "": "Alquileres",
+        "create": "Hacer un Alquiler",
+        "overview": "Vista General de Alquileres",
+        "cancel": "Cancelar Alquiler"
+      },
+      "rentals": {
+        "": "Arriendos",
+        "create": "Crear Arriendo",
+        "overview": "Vista General de Arriendos",
+        "cancel": "Cancelar Arriendo"
+      },
+      "notifications": {
+        "": "Notificaciones",
+        "overview": "Vista General de Notificaciones"
+      }
+    }
+  },
+  "cars": {
+    "noCars": "No hay coches disponibles",
+    "start": "Comience agregando su primer coche a la flota.",
+    "new": "Agregar nuevo coche",
+    "details": "Detalles del Coche",
+    "specs": "Especificaciones",
+    "features": "Características",
+    "actions": "Acciones",
+    "children": "Niño",
+    "rental": "Hacer un Arriendo",
+    "success": "¡Coche creado exitosamente!",
+    "add": {
+      "form": {
+        "brand": "Marca",
+        "model": "Modelo",
+        "type": "Tipo",
+        "plate": "Matrícula",
+        "mileage": "Kilometraje",
+        "fuel": "Cantidad de Combustible",
+        "seats": {
+          "": "Asientos",
+          "child": "Asientos para Niños"
+        },
+        "folding": "Asientos traseros plegables",
+        "towbar": "Barra de remolque",
+        "list": "Listar para alquiler",
+        "error": {
+          "brand": {
+            "required": "La marca es obligatoria"
+          },
+          "model": {
+            "required": "El modelo es obligatorio"
+          },
+          "type": "El tipo es obligatorio",
+          "plate": {
+            "required": "La matrícula es obligatoria",
+            "format": "Formato de matrícula incorrecto (X-)XXX-XXX"
+          },
+          "seats": {
+            "": "El número de asientos no puede ser negativo",
+            "child": "El número de asientos para niños no puede ser negativo"
+          }
+        }
+      }
+    }
+  },
+  "rentals": {
+    "empty": "No hay arriendos disponibles.",
+    "search": {
+      "car": "Coche",
+      "start": "Fecha de Inicio",
+      "end": "Fecha de Fin",
+      "city": "Ciudad",
+      "email": "Correo Electrónico"
+    },
+    "add": {
+      "pickup": "Punto de recogida",
+      "street": "Calle",
+      "postal": "Código Postal",
+      "contact": "Contacto",
+      "phone": "Número de teléfono"
+    },
+    "form": {
+      "error": {
+        "endVstart": "La fecha de fin no puede ser anterior a la fecha de inicio",
+        "future": "La fecha de inicio debe ser en el futuro",
+        "end": "La fecha de fin no puede ser anterior a hoy"
+      }
+    },
+    "success": "¡Arriendo creado exitosamente!",
+    "deleted": "Arriendo eliminado exitosamente",
+    "dates": "Por favor seleccione una fecha de inicio y fin, deben estar en el futuro"
+  },
+  "rent": {
+    "succes": "¡Alquiler creado exitosamente! Redirigiendo...",
+    "location": "Ubicación",
+    "status": {
+      "": "Estado",
+      "active": "Activo",
+      "cancelled": "Cancelado",
+      "finished": "Finalizado",
+      "confirmed": "Confirmado"
+    },
+    "add": {
+      "period": "Período",
+      "info": "Información del Arrendatario"
+    },
+    "form": {
+      "phone": "Número de teléfono",
+      "ssn": "Número de Seguridad Social",
+      "birthdate": "Fecha de nacimiento",
+      "license": "Licencia de Conducir",
+      "email": "Correo Electrónico",
+      "search": {
+        "start": "Fecha de Inicio",
+        "end": "Fecha de Fin",
+        "error": {
+          "start": "La fecha de inicio no puede ser anterior a hoy",
+          "end": "La fecha de fin no puede ser anterior a la fecha de inicio"
+        }
+      }
+    },
+    "overview": {
+      "owner": "Correo Electrónico del Propietario",
+      "renter": "Correo Electrónico del Arrendatario",
+      "norents": "No hay alquileres aún."
+    },
+    "cancel": {
+      "": "¿Desea cancelar el alquiler para {{brand}} {{model}} con matrícula {{plate}} desde {{startDate}} hasta {{endDate}}?"
+    }
+  },
+  "notifications": {
+    "empty": "No tienes notificaciones.",
+    "type": "Tipo",
+    "message": "Mensaje"
+  },
+  "header": {
+    "navbar": {
+      "home": "Inicio",
+      "cars": "Coches",
+      "rents": "Alquileres",
+      "rentals": "Arriendos",
+      "notifications": "Notificaciones",
+      "login": "Iniciar Sesión",
+      "logout": "Cerrar Sesión"
+    },
+    "languages": {
+      "en": "Inglés",
+      "nl": "Holandés",
+      "es": "Español"
+    }
+  },
+  "index": {
+    "welcome": "¡Bienvenido a nuestro proyecto de Ingeniería de Software!",
+    "rent": "¡Alquila tu coche hoy!"
+  },
+  "success": {
+    "car": "¡Coche creado exitosamente! Redirigiendo..."
+  },
+  "confirm": {
+    "cancel": {
+      "rent": "¿Está seguro de que desea cancelar este alquiler?",
+      "rental": "¿Desea cancelar el arriendo para {{brand}} {{model}} ({{licensePlate}}) desde {{startDate}} hasta {{endDate}}?"
+    },
+    "delete": {
+      "car": "¿Desea eliminar {{brand}} modelo {{model}} con matrícula {{plate}}?",
+      "rental": "¿Está seguro de que desea eliminar este arriendo?"
+    }
+  },
+  "error": {
+    "cars": "No se encontró ningún coche, por favor intente de nuevo.",
+    "rentals": "No hay arriendos disponibles aún",
+    "rents": "No hay alquileres disponibles aún",
+    "something": "Algo salió mal. Por favor intente de nuevo.",
+    "try": "Por favor intente más tarde.",
+    "rentalDelete": "Arriendo no eliminado, algo salió mal."
+  },
+  "login": {
+    "": "Iniciar Sesión",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "error": {
+      "email": "El correo electrónico es obligatorio",
+      "password": "La contraseña es obligatoria"
+    },
+    "noAccount": "¿No tienes cuenta?",
+    "signup": "Regístrate aquí",
+    "messages": {
+      "success": "Inicio de sesión exitoso. Redirigiendo...",
+      "error": "Inicio de sesión fallido",
+      "systemError": "Ha ocurrido un error. Por favor intente más tarde."
+    }
+  },
+  "signup": {
+    "": "Crear una cuenta",
+    "username": "Nombre de usuario",
+    "email": "Correo Electrónico",
+    "password": "Contraseña",
+    "role": {
+      "": "Rol",
+      "owner": "Propietario",
+      "renter": "Arrendatario"
+    },
+    "submit": "Crear cuenta",
+    "error": {
+      "username": "El nombre de usuario es obligatorio.",
+      "email": "El correo electrónico es obligatorio",
+      "password": "La contraseña es obligatoria",
+      "confirm": "Las contraseñas no coinciden"
+    },
+    "haveAccount": "¿Ya tienes una cuenta?",
+    "signin": "Inicia sesión aquí",
+    "messages": {
+      "success": "Cuenta creada exitosamente. Redirigiendo...",
+      "error": "Algo salió mal. Por favor intente de nuevo."
+    }
+  },
+  "unauthorized": {
+    "": "401 - No autorizado",
+    "message": "Lo sentimos, no tienes acceso a esta página.",
+    "back": "Inicio"
+  }
+}

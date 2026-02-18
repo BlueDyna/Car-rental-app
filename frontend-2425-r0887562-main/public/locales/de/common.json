@@ -1,0 +1,256 @@
+{
+    "name": "Auto zur Vermietung",
+    "general": {
+      "add": "Hinzufügen",
+      "submit": "Absenden",
+      "back": "Zurück",
+      "rent": "Mieten",
+      "book": "Jetzt buchen",
+      "cancel": "Abbrechen",
+      "delete": "Löschen",
+      "yes": "Ja",
+      "no": "Nein",
+      "search": "Suchen",
+      "clear": "Löschen",
+      "contact": "Kontakt",
+      "loading": "Wird geladen...",
+      "makeRental": "Eine Miete erstellen",
+      "reset": "Zurücksetzen",
+      "fill": "Bitte füllen Sie alle Felder aus"
+    },
+    "head": {
+      "title": {
+        "home": "Startseite",
+        "cars": {
+          "": "Autos",
+          "overview": "Autobeschreibung",
+          "add": "Auto hinzufügen",
+          "delete": "Auto löschen"
+        },
+        "rents": {
+          "": "Mieten",
+          "create": "Miete erstellen",
+          "overview": "Mietübersicht",
+          "cancel": "Miete stornieren"
+        },
+        "rentals": {
+          "": "Vermietungen",
+          "create": "Vermietung erstellen",
+          "overview": "Vermietungsübersicht",
+          "cancel": "Vermietung stornieren"
+        },
+        "notifications": {
+          "": "Benachrichtigungen",
+          "overview": "Benachrichtigungsübersicht"
+        }
+      }
+    },
+    "cars": {
+      "noCars": "Keine Autos verfügbar",
+      "start": "Beginnen Sie, indem Sie das erste Auto zur Flotte hinzufügen.",
+      "new": "Neues Auto hinzufügen",
+      "details": "Autodetails",
+      "specs": "Spezifikationen",
+      "features": "Eigenschaften",
+      "actions": "Aktionen",
+      "children": "Kindersitze",
+      "rental": "Eine Vermietung erstellen",
+      "success": "Auto erfolgreich erstellt!",
+      "add": {
+        "form": {
+          "brand": "Marke",
+          "model": "Modell",
+          "type": "Typ",
+          "plate": "Kennzeichen",
+          "mileage": "Kilometerstand",
+          "fuel": "Kraftstoffmenge",
+          "seats": {
+            "": "Sitze",
+            "child": "Kindersitze"
+          },
+          "folding": "Umklappbare Rücksitze",
+          "towbar": "Anhängerkupplung",
+          "list": "Zur Vermietung anbieten",
+          "error": {
+            "brand": {
+              "required": "Marke ist erforderlich"
+            },
+            "model": {
+              "required": "Modell ist erforderlich"
+            },
+            "type": "Typ ist erforderlich",
+            "plate": {
+              "required": "Kennzeichen ist erforderlich",
+              "format": "Kennzeichen im falschen Format (X-)XXX-XXX"
+            },
+            "seats": {
+              "": "Anzahl der Sitze darf nicht negativ sein",
+              "child": "Anzahl der Kindersitze darf nicht negativ sein"
+            }
+          }
+        }
+      }
+    },
+    "rentals": {
+      "empty": "Es sind keine Vermietungen verfügbar.",
+      "search": {
+        "car": "Auto",
+        "start": "Startdatum",
+        "end": "Enddatum",
+        "city": "Stadt",
+        "email": "E-Mail"
+      },
+      "add": {
+        "pickup": "Abholpunkt",
+        "street": "Straße",
+        "postal": "Postleitzahl",
+        "contact": "Kontakt",
+        "phone": "Telefonnummer"
+      },
+      "form": {
+        "error": {
+          "endVstart": "Das Enddatum darf nicht vor dem Startdatum liegen",
+          "future": "Das Startdatum muss in der Zukunft liegen",
+          "end": "Das Enddatum darf nicht vor heute liegen"
+        }
+      },
+      "success": "Vermietung erfolgreich erstellt!",
+      "deleted": "Vermietung erfolgreich gelöscht",
+      "dates": "Verfügbare Daten"
+    },
+  
+    "rent": {
+      "location": "Ort",
+      "status": {
+        "": "Status",
+        "active": "Aktiv",
+        "cancelled": "Storniert",
+        "finished": "Beendet",
+        "confirmed": "Bestätigt"
+      },
+      "add": {
+        "period": "Zeitraum",
+        "info": "Informationen zum Mieter"
+      },
+      "form": {
+        "phone": "Telefonnummer",
+        "ssn": "Sozialversicherungsnummer",
+        "birthdate": "Geburtsdatum",
+        "license": "Führerschein",
+        "email": "E-Mail",
+        "search": {
+          "start": "Startdatum",
+          "end": "Enddatum",
+          "error": {
+            "start": "Das Startdatum darf nicht vor heute liegen",
+            "end": "Das Enddatum darf nicht vor dem Startdatum liegen"
+          }
+        }
+      },
+      "overview": {
+        "owner": "E-Mail des Eigentümers",
+        "renter": "E-Mail des Mieters",
+        "norents": "Noch keine Mieten."
+      },
+      "cancel": {
+        "": "Möchten Sie die Miete für {{brand}} {{model}} mit dem Kennzeichen {{plate}} von {{startDate}} bis {{endDate}} stornieren?"
+      }
+    },
+  
+    "notifications": {
+      "empty": "Sie haben keine Benachrichtigungen.",
+      "type": "Typ",
+      "message": "Nachricht"
+    },
+  
+    "header": {
+      "navbar": {
+        "home": "Startseite",
+        "cars": "Autos",
+        "rents": "Mieten",
+        "rentals": "Vermietungen",
+        "notifications": "Benachrichtigungen",
+        "login": "Anmelden",
+        "logout": "Abmelden"
+      },
+      "languages": {
+        "en": "Englisch",
+        "nl": "Niederländisch",
+        "es": "Spanisch"
+      }
+    },
+    "index": {
+      "welcome": "Willkommen zu unserem Software-Engineering-Projekt!!!",
+      "rent": "Mieten Sie heute Ihr Auto!"
+    },
+    "success": {
+      "car": "Auto erfolgreich erstellt! Weiterleitung..."
+    },
+    "confirm": {
+      "cancel": {
+        "rent": "Sind Sie sicher, dass Sie diese Miete stornieren möchten?",
+        "rental": "Möchten Sie die Vermietung für {{brand}} {{model}} ({{licensePlate}}) von {{startDate}} bis {{endDate}} stornieren?"
+      },
+      "delete": {
+        "car": "Möchten Sie {{brand}} Modell {{model}} mit dem Kennzeichen {{plate}} löschen?",
+        "rental": "Sind Sie sicher, dass Sie diese Vermietung löschen möchten?"
+      }
+    },
+    "error": {
+      "cars": "Es wurde kein Auto gefunden, bitte versuchen Sie es erneut.",
+      "rentals": "Noch keine Vermietungen verfügbar",
+      "rents": "Noch keine Mieten verfügbar",
+      "something": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut.",
+      "try": "Bitte versuchen Sie es später erneut.",
+      "rentalDelete": "Vermietung wurde nicht gelöscht, etwas ist schiefgelaufen."
+    },
+  
+    "login": {
+      "": "Anmelden",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "error": {
+        "email": "E-Mail ist erforderlich",
+        "password": "Passwort ist erforderlich"
+      },
+      "noAccount": "Noch kein Konto?",
+      "signup": "Hier registrieren",
+      "messages": {
+        "success": "Anmeldung erfolgreich. Weiterleitung ...",
+        "error": "Anmeldung fehlgeschlagen",
+        "systemError": "Es ist ein Fehler aufgetreten. Bitte versuchen Sie es später erneut."
+      }
+    },
+  
+    "signup": {
+      "": "Ein Konto erstellen",
+      "username": "Benutzername",
+      "email": "E-Mail",
+      "password": "Passwort",
+      "role": {
+        "": "Rolle",
+        "owner": "Eigentümer",
+        "renter": "Mieter"
+      },
+      "submit": "Konto erstellen",
+      "error": {
+        "username": "Benutzername ist erforderlich.",
+        "email": "E-Mail ist erforderlich",
+        "password": "Passwort ist erforderlich",
+        "confirm": "Passwörter stimmen nicht überein"
+      },
+      "haveAccount": "Bereits ein Konto?",
+      "signin": "Hier anmelden",
+      "messages": {
+        "success": "Konto erfolgreich erstellt. Weiterleitung ...",
+        "error": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+      }
+    },
+  
+    "unauthorized": {
+      "": "401 - Nicht autorisiert",
+      "message": "Entschuldigung, Sie haben keinen Zugriff auf diese Seite.",
+      "back": "Startseite"
+    }
+  }
+  
